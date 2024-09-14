@@ -1,19 +1,24 @@
 @font-face {
     font-family: 'headingnow-88heavyitalic';
-    src: url(fonts/HeadingNow-88HeavyItalic.ttf);
+    src: url(/fonts/HeadingNow-88HeavyItalic.ttf);
 }
 @font-face {
     font-family: 'headingnow-74regular';
-    src: url(fonts/HeadingNow-74Regular.ttf);
+    src: url(/fonts/HeadingNow-74Regular.ttf);
 }
 @font-face {
     font-family: 'headingnow-88heavy';
-    src: url(fonts/HeadingNow-88Heavy.ttf);
+    src: url(/fonts/HeadingNow-88Heavy.ttf);
 }
+
 body{
     background-color: rgb(255, 153, 0);
 }
-#tituloIndex{
+p{
+    font-family: headingnow-74regular;
+    margin: 0px;
+}
+#tituloCalculo{
     font-family: 'headingnow-88heavyitalic';
     font-size: 60px;
     line-height: 70px;
@@ -23,21 +28,29 @@ body{
     word-wrap: break-word;
     width: 700px;
 }
-#nomeUsuario{
+#containerSoma{
+    display: flex;
+}
+#numeroSoma1, #numeroSoma2{
     font-family: 'headingnow-74regular';
     font-size: 20px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
-    width: 710px;
+    width: 400px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
     position: relative;
 }
-#indexProximo{
+#simboloMais{
+    font-family: headingnow-88heavy;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#calculoSomar{
     font-family: 'headingnow-88heavyitalic';
     font-size: 20px;
     color: white;
@@ -51,6 +64,6 @@ body{
     margin-top: 10px;
     position: relative;
 }
-    #indexproximo:hover{
+    #calculoSomar:hover{
     color: yellow;
 }

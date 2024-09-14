@@ -1,24 +1,23 @@
 @font-face {
     font-family: 'headingnow-88heavyitalic';
-    src: url(fonts/HeadingNow-88HeavyItalic.ttf);
+    src: url(/fonts/HeadingNow-88HeavyItalic.ttf);
 }
 @font-face {
     font-family: 'headingnow-74regular';
-    src: url(fonts/HeadingNow-74Regular.ttf);
+    src: url(/fonts/HeadingNow-74Regular.ttf);
 }
 @font-face {
     font-family: 'headingnow-88heavy';
-    src: url(fonts/HeadingNow-88Heavy.ttf);
+    src: url(/fonts/HeadingNow-88Heavy.ttf);
 }
 
 body{
     background-color: rgb(255, 153, 0);
 }
 p{
-    font-family: headingnow-74regular;
     margin: 0px;
 }
-#tituloCalculo{
+#titulo{
     font-family: 'headingnow-88heavyitalic';
     font-size: 60px;
     line-height: 70px;
@@ -28,29 +27,18 @@ p{
     word-wrap: break-word;
     width: 700px;
 }
-#containerSoma{
-    display: flex;
-}
-#numeroSoma1, #numeroSoma2{
-    font-family: 'headingnow-74regular';
+#tituloenquete{
+    font-family: 'headingnow-88heavy';
     font-size: 20px;
-    color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 20px;
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    position: relative;
+    opacity: 75%;
 }
-#simboloMais{
-    font-family: headingnow-88heavy;
-    font-size: 40px;
-    margin-top: 10px;
+#enquete{
+    font-family: 'headingnow-74regular';
+    font-size: 15px;
+    text-align: center;
 }
-#calculoSomar{
+#cliqueaqui{
     font-family: 'headingnow-88heavyitalic';
     font-size: 20px;
     color: white;
@@ -64,6 +52,25 @@ p{
     margin-top: 10px;
     position: relative;
 }
-    #calculoSomar:hover{
+    #cliqueaqui:hover{
     color: yellow;
+}
+#imagemabobora{
+    display: block;
+    margin: 0 auto;
+    border: white;
+    border-radius: 20px;
+    margin-top: -18px;
+}
+#descriçãoimagem{
+    font-family: 'headingnow-74regular';
+    font-size: px;
+    text-align: center;
+    margin-top: -25px;
+}
+#direitosreservados{
+    font-family: 'headingnow-88heavy';
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
 }
