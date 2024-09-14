@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'headingnow-88heavyitalic';
-    src: url(/fonts/HeadingNow-88HeavyItalic.ttf);
+    src: url(../fonts/HeadingNow-88HeavyItalic.ttf);
 }
 @font-face {
     font-family: 'headingnow-74regular';
-    src: url(/fonts/HeadingNow-74Regular.ttf);
+    src: url(../fonts/HeadingNow-74Regular.ttf);
 }
 @font-face {
     font-family: 'headingnow-88heavy';
-    src: url(/fonts/HeadingNow-88Heavy.ttf);
+    src: url(../fonts/HeadingNow-88Heavy.ttf);
 }
 body{
     background-color: rgb(255, 153, 0);
