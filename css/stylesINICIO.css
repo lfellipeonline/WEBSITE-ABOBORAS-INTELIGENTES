@@ -74,3 +74,27 @@ p{
     text-align: center;
     margin-top: 15px;
 }
+
+@media screen and (max-width: 600px){
+    #titulo{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    #cliqueaqui{
+        width: 50%;
+    }
+    #imagemabobora{
+        width: 50%;
+    }
+    #descriçãoimagem{
+        width: 50%;
+        margin: auto;
+    }
+    #direitosreservados{
+        width: 50%;
+        margin: auto;
+    }
+    
+}

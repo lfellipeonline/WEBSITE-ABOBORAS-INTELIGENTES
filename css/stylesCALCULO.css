@@ -67,3 +67,19 @@ p{
     #calculoSomar:hover{
     color: yellow;
 }
+
+@media screen and (max-width: 600px){
+    #tituloCalculo{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    #numeroSoma1, #numeroSoma2{
+        width: 50%;
+    }
+    #calculoSomar{
+        width: 50%;
+    }
+    
+}

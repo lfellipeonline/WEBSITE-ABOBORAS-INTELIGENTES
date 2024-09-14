@@ -54,3 +54,19 @@ body{
     #indexproximo:hover{
     color: yellow;
 }
+
+@media screen and (max-width: 600px){
+    #tituloIndex{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    #nomeUsuario{
+        width: 50%;
+    }
+    #indexProximo{
+        width: 50%;
+    }
+    
+}
