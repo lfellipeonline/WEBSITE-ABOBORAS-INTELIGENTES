@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'headingnow-88heavyitalic';
+    src: url(fonts/HeadingNow-88HeavyItalic.ttf);
+}
+@font-face {
+    font-family: 'headingnow-74regular';
+    src: url(fonts/HeadingNow-74Regular.ttf);
+}
+@font-face {
+    font-family: 'headingnow-88heavy';
+    src: url(fonts/HeadingNow-88Heavy.ttf);
+}
+
+body{
+    background-color: rgb(255, 153, 0);
+}
+p{
+    margin: 0px;
+}
+#titulo{
+    font-family: 'headingnow-88heavyitalic';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    text-align: center;
+    margin: 0px auto;
+    word-wrap: break-word;
+    width: 700px;
+}
+#tituloenquete{
+    font-family: 'headingnow-88heavy';
+    font-size: 20px;
+    text-align: center;
+    opacity: 75%;
+}
+#enquete{
+    font-family: 'headingnow-74regular';
+    font-size: 15px;
+    text-align: center;
+}
+#cliqueaqui{
+    font-family: 'headingnow-88heavyitalic';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 710px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+    #cliqueaqui:hover{
+    color: yellow;
+}
+#imagemabobora{
+    display: block;
+    margin: 0 auto;
+    border: white;
+    border-radius: 20px;
+    margin-top: -18px;
+}
+#descriçãoimagem{
+    font-family: 'headingnow-74regular';
+    font-size: px;
+    text-align: center;
+    margin-top: -25px;
+}
+#direitosreservados{
+    font-family: 'headingnow-88heavy';
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}

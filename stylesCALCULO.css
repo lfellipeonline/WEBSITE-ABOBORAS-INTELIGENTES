@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'headingnow-88heavyitalic';
+    src: url(fonts/HeadingNow-88HeavyItalic.ttf);
+}
+@font-face {
+    font-family: 'headingnow-74regular';
+    src: url(fonts/HeadingNow-74Regular.ttf);
+}
+@font-face {
+    font-family: 'headingnow-88heavy';
+    src: url(fonts/HeadingNow-88Heavy.ttf);
+}
+
+body{
+    background-color: rgb(255, 153, 0);
+}
+p{
+    font-family: headingnow-74regular;
+    margin: 0px;
+}
+#tituloCalculo{
+    font-family: 'headingnow-88heavyitalic';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    text-align: center;
+    margin: 0px auto;
+    word-wrap: break-word;
+    width: 700px;
+}
+#containerSoma{
+    display: flex;
+}
+#numeroSoma1, #numeroSoma2{
+    font-family: 'headingnow-74regular';
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+#simboloMais{
+    font-family: headingnow-88heavy;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#calculoSomar{
+    font-family: 'headingnow-88heavyitalic';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 710px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+    #calculoSomar:hover{
+    color: yellow;
+}
