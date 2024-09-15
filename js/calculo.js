@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return numeroSoma1Value + numeroSoma2Value;
         }
 
+        if (isNaN(numeroSoma1Value) && isNaN(numeroSoma2Value)) {
+            alert('Por favor, preencha os campos com números.');
+            return;
+        }
+
         const resultadoSoma = (somar(numeroSoma1Value, numeroSoma2Value));
         console.log('Resultado da soma:', resultadoSoma);
 

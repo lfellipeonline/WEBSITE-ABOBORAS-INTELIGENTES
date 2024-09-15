@@ -7,6 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const nomeUsuarioValue = NomeUsuario.value;
         console.log('Nome:', nomeUsuarioValue);
 
+        if (nomeUsuarioValue === '') {
+            alert('Por favor, preencha o campo com seu nome.');
+            return;
+        }
+
         // Armazena o valor em localStorage
         localStorage.setItem('nomeUsuario', nomeUsuarioValue);
 
