@@ -17,7 +17,26 @@ body{
 p{
     margin: 0px;
 }
+
+#homebarText{
+    color: white;
+    font-family: 'headingnow-88heavyitalic';
+}
+
+#homebar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: 'headingnow-88heavy';
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 #titulo{
+    padding-top: 60px;
     font-family: 'headingnow-88heavyitalic';
     font-size: 60px;
     line-height: 70px;
@@ -69,7 +88,9 @@ p{
     margin-top: -25px;
 }
 #direitosreservados{
-    font-family: 'headingnow-88heavy';
+    background-color: black;
+    color: white;
+    font-family: 'headingnow-74regular';
     font-size: 15px;
     text-align: center;
     margin-top: 15px;

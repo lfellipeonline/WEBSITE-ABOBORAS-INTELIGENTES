@@ -13,7 +13,25 @@
 body{
     background-color: rgb(255, 153, 0);
 }
+
+#homebarText{
+    color: white;
+    font-family: 'headingnow-88heavyitalic';
+}
+
+#homebar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: 'headingnow-88heavy';
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 #tituloIndex{
+    padding-top: 60px;
     font-family: 'headingnow-88heavyitalic';
     font-size: 60px;
     line-height: 70px;
